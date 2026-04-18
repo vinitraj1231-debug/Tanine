@@ -29,7 +29,7 @@ from telegram.error import BadRequest, RetryAfter
 # ══════════════════════════════════════════════════════════
 #  CONFIG
 # ══════════════════════════════════════════════════════════
-BOT_TOKEN   = os.environ.get("BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
+BOT_TOKEN   = os.environ.get("BOT_TOKEN", "8284660598:AAGNQDMtd3fBKv4vz08BIcATN2e_CjvpWmU")
 JIKAN       = "https://api.jikan.moe/v4"
 ANILIST     = "https://graphql.anilist.co"
 TIMEOUT     = aiohttp.ClientTimeout(total=15)
